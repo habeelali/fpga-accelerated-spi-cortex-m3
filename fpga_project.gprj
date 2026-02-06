@@ -1,0 +1,14 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NSR-4C" pn="GW1NSR-LV4CQN48PC6/I5">gw1nsr4c-000</Device>
+    <FileList>
+        <File path="src/rtl/reg_file.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/rtl/spi_pkg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/rtl/spi_reg_proto.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/rtl/spi_slave_phy.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/rtl/top_tangnano4k.vhd" type="file.vhdl" enable="1"/>
+    </FileList>
+</Project>

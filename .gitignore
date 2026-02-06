@@ -1,0 +1,12 @@
+# Gowin / FPGA tool outputs
+impl/
+*.gprj.user
+
+# Simulation outputs
+*.vcd
+*.cf
+
+# Editor / OS junk
+*.swp
+*.bak
+.DS_Store
